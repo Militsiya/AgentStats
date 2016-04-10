@@ -1,0 +1,383 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+h1 {
+margin:0
+}
+
+hr {
+  border:none;
+  box-shadow:none;
+  border-bottom:1px solid black;
+}
+
+
+
+#all-wrapper {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    min-height:770px;
+    background:url(img/bg.jpg) center center no-repeat #000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide {
+    background-color:rgba(0,0,0, 0.6);
+    font-family: "Roboto", sans-serif;
+    margin:5px;
+    color:white;
+}
+#name-bar {
+    width:600px;
+    height:50px;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+
+#todo-wrapper {
+  width:600px;
+  padding:10px;
+}
+
+#name-bar span {
+  color:orange;
+}
+
+#agent-gs {
+    font-size:24px;
+}
+
+#ilvl {
+    width:auto;
+    height:inherit;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    background:url(icon/star.png) center left no-repeat;
+    background-size:20px;
+    padding-left:25px;
+    text-align:left;
+}
+
+#numbers-wrapper {
+    width: 600px;
+    height:auto;
+    padding:10px 10px 20px 10px;
+}
+
+ #equipment-wrapper {
+   width: 600px;
+   height:auto;
+   padding:10px;
+   display:flex;
+   flex-direction: column;
+ }
+
+#charts, #weapons-row, #first-gear-row, #second-gear-row {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin:10px 0 0 0;
+}
+
+#charts {
+  background:;
+    justify-content: space-between;
+}
+
+#weapons-row {
+  background:;
+    justify-content: space-around;
+}
+
+#first-gear-row, #second-gear-row {
+  justify-content: space-around;
+}
+
+#primary-weapon .weapon-icon {
+  background-image: url(icon/w/ar/19.png);
+}
+
+#secondary-weapon .weapon-icon {
+  background-image: url(icon/w/dmr/6.png);
+}
+
+#sidearm .weapon-icon {
+  background-image: url(icon/w/pistol/3.png);
+}
+
+.weapon-slot {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:5px 0 0 0;
+    background:rgba(255, 165, 0, 0.7);
+    text-align:center;
+  width:160px;
+}
+
+.weapon-slot p {
+  margin:0;
+  font-size:16px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.weapon-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip:content-box;
+  width:160px;
+  height:70px;
+  background-size:cover;
+}
+
+.weapon-mods {
+  width:100;
+  height:10px;
+  background:;
+  display:flex;
+  flex-direction: row;
+}
+
+.weapon-mods div {
+  flex:1;
+  margin:1px
+}
+
+#primary-weapon .mod1 {
+  background:#42dddd;
+}
+#primary-weapon  .mod2 {
+  background:orange;
+}
+#primary-weapon  .mod3 {
+  background:orange;
+}
+#primary-weapon .mod4 {
+  background:orange;
+}
+#primary-weapon .mod5 {
+  background:purple;
+}
+
+#primary-weapon .mod6 {
+  background:orange;
+}
+
+#secondary-weapon .mod1 {
+  background:#42dddd;
+}
+#secondary-weapon  .mod2 {
+  background:rgba(0,0,0,0.3);
+}
+#secondary-weapon  .mod3 {
+  background:rgba(0,0,0,0.3);
+}
+#secondary-weapon .mod4 {
+  background:orange;
+}
+#secondary-weapon .mod5 {
+  background:rgba(0,0,0,0.3);
+}
+#secondary-weapon .mod6 {
+  background:dodgerblue;
+}
+
+#sidearm .mod6 {
+  background:purple;
+}
+
+#sidearm .mod3 {
+  background:rgba(0,0,0,0.3);
+}
+
+.gear-slot {
+  height:95px;
+  width:160px;
+  background:rgba(0,0,0,0.3);
+  display:flex;
+  align-items: flex-start;
+}
+
+.gear-icon {
+  width:80px;
+  height:inherit;
+  background-color:gray;
+  background-image: url(icon/a/chest.png);
+  background-size:150px;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+#chest-piece .gear-icon {
+  background-color:orange;
+    background-image: url(icon/a/chest/15.png);
+}
+#mask-piece .gear-icon {
+  background-color:orange;
+    background-image: url(icon/a/mask/15.png);
+}
+#knee-piece .gear-icon {
+  background-color:orange;
+    background-image: url(icon/a/knees/10.png);
+}
+
+#backpack-piece .gear-icon {
+  background-color:dodgerblue;
+    background-image: url(icon/a/backpack/10.png);
+}
+
+#gloves-piece .gear-icon {
+  background-color:dodgerblue;
+    background-image: url(icon/a/gloves/10.png);
+}
+
+#holster-piece .gear-icon {
+  background-color:purple;
+    background-image: url(icon/a/holster/10.png);
+}
+
+.gear-highlights {
+  width:30px;
+  height:inherit;
+  background-color: rgba(0,0,0,0.5);
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.gear-stats {
+  display:flex;
+  width:70px;
+  height:inherit;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  font-size:18px;
+}
+
+.gear-highlights div {
+  background-size:25px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  width:inherit;
+  height:30px;
+  opacity:0.2;
+}
+.icon-firearms {
+  background-image:url(icon/firearms.png)
+}
+.icon-stamina {
+  background-image:url(icon/stamina.png)
+}
+.icon-electro {
+  background-image:url(icon/electronics.png)
+}
+
+#agent-levels {
+  width:100%;
+  padding:10px;
+  height:150px;
+  background-color: ;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#actual-level, #darkzone-rank {
+  display:flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height:65px;
+  margin:5px;
+}
+
+#actual-level progress, #darkzone-rank progress {
+  margin:0 0 0 10px;
+  position: relative;
+}
+
+.level-square {
+  width:64px;
+  height:64px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-size:36px;
+  color:white;
+}
+
+#actual-level .level-square {
+  background-color: orange;
+}
+
+#darkzone-rank .level-square {
+  background-color: purple;
+}
+
+progress[value] {
+
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 100%;
+  height: 10px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: transparent;
+  border-bottom:2px solid white;
+}
+
+#actual-level progress[value]::after {
+  content:"10,851 / 27,175";
+  color:white;
+  position: absolute;
+  top:-22px;
+}
+
+#actual-level progress[value]::-webkit-progress-value {
+  background-color: orange;
+}
+
+#darkzone-rank progress[value]::after {
+  content:"120,851 / 275,175";
+  color:white;
+  position: absolute;
+  top:-22px;
+}
+
+#darkzone-rank progress[value]::-webkit-progress-value {
+  background-color: purple;
+}
+
+#share-wrapper {
+  width:600px;
+  height:30px;
+  padding:10px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#share-wrapper span {
+  width:200px;
+  margin:0;
+}
+#share-wrapper input[type=text] {
+  width:100%;
+  background:transparent;
+  border:none;
+  border-bottom:2px solid white;
+  color:#eee;
+}

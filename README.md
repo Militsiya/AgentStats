@@ -8,6 +8,9 @@ AgentStats is a webpage for keeping track of and sharing character stats and loa
 - Shareable URL
 - **All** item icons from The Division included
 
+## Todo
+See [TODO.MD](https://github.com/Militsiya/AgentStats/blob/master/TODO.MD)
+
 ## Dependencies
 - [Chart.js](https://github.com/nnnick/Chart.js)
 - [Opentip](https://github.com/enyo/opentip)

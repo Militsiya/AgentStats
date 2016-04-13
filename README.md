@@ -1,5 +1,10 @@
 # The Divsion AgentStats
-AgentStats is a webpage for keeping track of and sharing character stats and loadouts from Tom Clancy's The Divison. It is currently on hold until Ubisoft / Massive release a way to collect information about player characters.
+
+AgentStats is a webpage for keeping track of and sharing character stats and loadouts from Tom Clancy's The Divison.
+
+[Demo](http://darkzone.nightbug.se/)
+
+The demo currently displays the same statistics regardless of which username you enter. Ubisoft / Massive have not yet released a way to get the information.
 
 ## Features
 - List Agent weapons and gear

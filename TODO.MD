@@ -23,5 +23,6 @@ Below is a list of things that are either in progress or finished.
 ## Maybe later
 - [ ] Agent Comparison
 - [ ] Leaderboard
+- [ ] Port to Angular
 
 **Note:** Some things may not be included in this list.

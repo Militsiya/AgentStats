@@ -17,7 +17,9 @@ The demo currently displays the same statistics regardless of which username you
 See [TODO.MD](https://github.com/Militsiya/AgentStats/blob/master/TODO.MD)
 
 ## Dependencies
+- [Angular.js](https://angularjs.org)
 - [Chart.js](https://github.com/nnnick/Chart.js)
 - [Opentip](https://github.com/enyo/opentip)
+
 
 

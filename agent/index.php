@@ -120,7 +120,7 @@
 
         <div id = "share-wrapper" class = "slide">
           <span>Share this agent:</span>
-          <input type = "text" id="sharelink" ng-model="'http://darkzone.nightbug.se/agent/?uid='+name" readonly >
+          <input type = "text" id="sharelink" ng-model="shareUrl" readonly >
         </div>
 
         <div id = "todo-wrapper" class = "slide">

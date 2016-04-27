@@ -2,6 +2,7 @@ var app = angular.module("agentApp", []);
 
 app.controller("playerCtrl", function($scope) {
   $scope.raw = ex_user;
+  $scope.shareLink = "https://nightbug.se/darkzone/agent/?uid="+ex_user.name;
   $scope.name = ex_user.name;
   $scope.weapons = ex_user.loadout;
 });

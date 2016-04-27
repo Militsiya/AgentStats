@@ -120,7 +120,7 @@
 
         <div id = "share-wrapper" class = "slide">
           <span>Share this agent:</span>
-          <input type = "text" id="sharelink" ng-model="shareUrl" readonly >
+          <input type = "text" id="sharelink" ng-model="shareLink" readonly >
         </div>
 
         <div id = "todo-wrapper" class = "slide">

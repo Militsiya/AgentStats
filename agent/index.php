@@ -135,10 +135,14 @@
     <script src="js/Chart.js"></script>
     <script src="js/opentip-jquery-excanvas.min.js"></script>
     <link href="css/opentip.css" rel="stylesheet" type="text/css" />
+
     <!-- Modules -->
+   
     <script src = "js/config.js"></script>
     <script src = "js/tools.js"></script>
     <script src = "js/exuser.js"></script>
+    <!-- Classes -->
+    <script src = "js/classes/GearPiece.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
 </body>
